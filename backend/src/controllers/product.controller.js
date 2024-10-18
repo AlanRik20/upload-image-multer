@@ -17,7 +17,7 @@ export const createProduct = (req, res) => {
             name,
             description,
             price: parseFloat(price),
-            imageURL: "http://localhost:3000/"+req.body.image,
+            imageURL: "http://localhost:3000/uploads/"+req.body.image,
         };
 
         // Agregar el producto al array de productos
